@@ -1,0 +1,36 @@
+.body{
+    position:relative;
+    width: 1440px ;
+    height: 1050px;
+    background-color: black;
+}
+
+.fondo{
+    color: rgb(152, 108, 194);
+    background-color: rgb(218, 191, 243);
+    width: auto;
+    height: 300px;
+    position: relative;
+}
+
+
+.button{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    width: 50px;
+    height: 60px;
+    background: url(../imagen/foto.jpg);
+    border-radius: 100%;
+}
+
+
+.nombre{
+    position:absolute;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 3000px;
+   height: 70px;
+   font-size: 35px;
+   left: 360px;
+   top: 55px;
+}
