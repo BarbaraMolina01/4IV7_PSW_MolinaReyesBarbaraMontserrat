@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title></title>
+</head>
+<body>
+
+
+	<div class="container">
+		<form id="forms1" action="/" method="post">
+			<div class="row">
+				<div class="col-md-3">
+					<label for="valorauto">Valor del auto (100,000 - 1,000,000)</label><br>
+					<input type="text" name="valorauto" id="valorauto">
+				</div>
+				<div class="col-md-3 red">
+					<label for="cuota">Cuota inicial (Mín. 10% del valor)</label>
+					<input type="text" name="cuota" id="cuota">
+				</div>
+				<div class="col-md-3">
+					<p >Periodo (3, 6, 9, 12, 18 meses)</p>
+					<div class="row orange">
+						<div class="col-md-6">
+							<input type="radio" name="periodos" id="3" value=3>
+							<label for="3">3 meses</label><br>
+							<input type="radio" name="periodos" id="6" value=6>
+							<label for="6">6 meses</label><br>
+							<input type="radio" name="periodos" id="9" value=9>
+							<label for="9">9 meses</label><br>
+						</div>
+						<div class="col-md-6">
+							<input type="radio" name="periodos" id="12" value=12>
+							<label for="12">12 meses</label><br>
+							<input type="radio" name="periodos" id="18" value=18>
+							<label for="18">18 meses</label><br>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-3">
+					<label for="interes">Interes en porcentaje</label>
+					<input type="text" name="interes" id="interes"><br>
+				</div>
+			</div>
+			
+			<div class="container">
+				<input type="submit" name="submit" id="submit">	
+			</div>
+			
+			
+		</form>
+	</div>
+
+	<div class="container" id="pantalla">
+		
+	</div>
+
+	<footer>
+		<p class="h3">
+			Molina Reyes Barbara Montserrat <br>
+			2021090347 <br>
+			molinareyesbarbara@gmail.com <br>
+			Grupo 4IV7
+		</p>
+	</footer>
+	
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
